@@ -1,0 +1,621 @@
+/* ******************************
+       global css
+**********************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* *****************************
+         header css
+*********************************/
+
+header{
+    width: 100%;
+    height: 11vh;
+    position: absolute;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-left img{
+width: 200px;
+margin-top: 65px;
+}
+
+.head-right{
+    text-align: right;
+    margin-top: 25px;
+  
+}
+
+
+.top{
+    position: relative;
+    margin-bottom: 20px;
+}
+.top-img{
+    position: absolute;
+    right: 270px;
+}
+.top-num{
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.top span{
+    color:#3d2514;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   
+   
+}
+.menu ul li{
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 55px;
+    font-family: 'Bebas Neue', cursive;
+font-weight: bold;
+font-size: 20px;
+
+}
+.menu ul li:first-child{
+    text-shadow: 3px 1px 0px white;
+
+
+}
+
+.menu ul li a{
+    color:#3d2514;
+    letter-spacing: 2px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.menu ul li a:hover{
+    text-shadow: 3px 1px 0px white;
+}
+/* *****************************
+         banner css
+*********************************/
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.banner-content{
+    display: flex;
+   
+}
+.banner-left{
+    margin-top:310px;
+    padding-right: 70px;
+}
+.banner-left span{
+font-size: 23px;
+font-family: 'Bebas Neue', cursive;
+
+border: 2px dashed #3d2514;
+color:#3d2514;
+padding: 3px 7px;
+
+
+}
+.banner-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 114px;
+    color:#3d2514;
+    text-shadow: 5px 4px 3px white;
+
+}
+.banner-left h2{
+    font-family: 'Alfa Slab One', cursive;
+font-size: 56px;
+text-transform: uppercase;
+color:#3d2514;
+text-shadow: 5px 4px 3px white;
+
+}
+.banner-right {
+    margin-top: 195px;
+    
+    margin-right: 5px;
+   
+
+}
+.banner-right img{
+    width: 100%;
+    height: auto;
+
+}
+/* *****************************
+         features css
+*********************************/
+.features{
+    width: 100%;
+    height: 60vh;
+    padding: 77px 0px ;
+}
+.features-content{
+    width: 100%;
+    display: flex;
+}
+.features-left{
+padding-right: 40px;
+position: relative;
+
+}
+.features-left img ,.features-right img{
+    width: 100%;
+}
+
+
+.pos-1{
+    position: absolute;
+    top: 20px;
+    right: 290px;
+}
+.pos-1 h3{
+font-size: 25px;
+color: rgb(247, 243, 243);
+font-family: 'Bebas Neue', cursive;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
+.pos-1 h2{
+    color: rgb(241, 235, 235);
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+   letter-spacing: 1px;
+    font-size:38px ;
+}
+.right-top ,.right-bottom{
+    position:relative;
+    margin-bottom: 26px;
+}
+.pos-2{
+    position: absolute;
+    top: 20px;
+    right: 350px;
+}
+.right-top h3{
+text-transform: uppercase;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+font-weight: bold;
+color: white;
+word-spacing: 3px;
+letter-spacing: 2px;
+}
+.right-top h2{
+text-transform: uppercase;
+font-family: 'Bebas Neue', cursive;
+font-size: 40px;
+font-weight: bold;
+line-height: 38px;
+color: white;
+word-spacing: 3px;
+letter-spacing: 2px;
+}
+.right-bottom h3{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.right-bottom h2 {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 46px;
+    color: white;
+   
+    letter-spacing: 2px;
+}
+/* *****************************
+         Enjoy css
+*********************************/
+
+.enjoy{
+    width: 100%;
+    height: 85vh;
+    padding: 20px 0px;
+}
+
+.enjoy-top h3,p,h2{
+text-align: center;
+margin-bottom: 20px;
+}
+.enjoy-top h3{
+background-color: #ffc24c;
+padding: 10px 10px;
+text-transform: uppercase;
+color:#3d2514;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+text-align: center;
+letter-spacing: 2px;
+
+
+
+
+}
+.enjoy-top p{
+font-family: 'Montserrat', sans-serif;
+font-size: 13px;
+text-align: center;
+color:#3d2514;
+
+
+}
+.enjoy-top h2{
+    color:#3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    color:#3d2514;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+letter-spacing: 3px;
+padding-top: 9px;
+}
+.enjoy-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bug{
+    margin-right: 63px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+   
+    cursor: pointer;
+
+}
+.bug img{
+    width: 100%;
+    transition: all 0.3s linear;
+    
+}
+.bug h3{
+    text-transform: uppercase;
+color:#3d2514;
+font-family: 'Bebas Neue', cursive;
+font-weight: 300;
+font-size: 37px;
+
+margin-top: 10px;
+
+
+
+}
+.bug p{
+    color:#3d2514;
+    font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+
+   
+}
+.bug img:hover{
+transform: scale(1.5);
+margin-top: 100px;
+
+}
+#sp{
+    font-size: 13px;
+}
+.bug button{
+    text-transform: uppercase;
+    padding: 15px 27px;
+    color: #fff;
+    background-color: #bf2222;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+.bug button:hover{
+    background: linear-gradient(110deg, rgba(96,94,94,1) 45%, rgba(0,0,0,1) 45%, rgba(45,44,44,1) 46%);
+color:aqua;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sp{
+    margin-top: 90px;
+}
+/* *****************************
+         section 6 css
+*********************************/
+.sec6{
+    width: 100%;
+    padding-top: 140px;
+    background-image: url(../img/bg5.png);
+    height: 60vh;
+}
+.sec6-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+/* **************************
+          Events section 
+**************************/
+  .event{
+      width: 100%;
+      height: 60vh;
+      margin-top: 40px;
+      
+  }
+  .box-con{
+    box-shadow: 9px 9px 20px rgba(0, 0, 0, 0.527);
+
+  }
+  .event-content{
+      display: flex;
+      align-items: center;
+
+  }
+  .event-left{
+      padding-left: 30px;
+  }
+  .event-left h2,p{
+      text-align: left;
+  }
+
+  .event-left h3{
+
+font-family: 'Bebas Neue', cursive;
+font-weight: bold;
+font-size: 29px;
+
+  }
+
+  .event-left h2{
+font-size: 35px;
+font-family: 'Alfa Slab One', cursive;
+color:#3d2514;
+
+  }
+  .event-left p{
+      font-size: 18px;
+  }
+
+
+  .event-right img{
+      width: 100%;
+      padding-right: 15px;
+
+  }
+  .event-right,.event-left{
+      flex-basis: 50%;
+  }
+
+.owl-nav{
+    display: none;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #b97f2f;}
+
+
+
+/* *******************************
+         table section
+******************************** */
+
+
+
+.sec7{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/full.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+ .table{
+     display: flex;
+
+     justify-content: space-between;
+     flex-direction: column;
+ }
+.tab-mid{
+    text-align: center;
+}
+ .tab-mid h3{
+    font-family: 'Bebas Neue', cursive;
+font-size: 29px;
+color:#3d2514;
+letter-spacing: 2px;
+font-weight: bold;
+
+ }
+
+ .tab-mid h2{
+    font-family: 'Alfa Slab One', cursive;
+    color:#3d2514;
+font-size: 50px;
+text-transform: uppercase;
+margin-top:10px ;
+margin-bottom: 60px;
+ }
+form{
+text-align: center;
+}
+
+.tab-item{
+    width: 100%;
+    margin-bottom: 15px;
+ 
+}
+.tab-item input{
+    width: 35%;
+    height: 50px;
+     margin-right: 10px;
+ 
+}
+
+.tab-item input::placeholder{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+
+.tab-item button{
+    width: 35%;
+    height: 50px;
+    margin-right: 10px;
+
+  
+    background-color: #bf2222;
+}
+.tab-item button a{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+/* *****************************
+         footer css
+*********************************/
+
+footer{
+    width: 100%;
+    height: 50vh;
+   margin: 40px 0px;
+  background-size: cover;
+  background-image: url(../img/footimg.png);
+background-repeat: no-repeat;
+}
+.top-footer{
+    position: relative;
+
+}
+footer img{
+width: 355px;
+position: absolute;
+top: 55px;
+left: 10px;
+}
+.middle{
+    width: 100%;
+    position: relative;
+    
+}
+.left p{
+    text-align: justify;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+}
+.rool {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 180px;
+    right: 0px;
+    
+    line-height: 40px;
+    
+}
+.rool i{
+    padding-right: 10px;
+}
+.bottom-footer{
+    position: relative;
+}
+.bottom-footer p{
+    color: white;
+font-family: 'Bebas Neue', cursive;
+font-size: 20px;
+position: absolute;
+bottom: -10px;
+left: 10px;
+
+}
+.foot-menu {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+margin-top: 350px;
+}
+
+.fa-facebook-f{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00acee;
+}
+
+.fa-whatsapp{
+    color: #2EB140;
+}
+
+.foot-menu a{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+
+.foot-menu a:hover{
+    box-shadow: inset  3px 3px 12px rgba(0, 0, 0, 0.89),inset 3px 3px 12px rgb(24, 24, 24);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
